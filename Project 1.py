@@ -12,7 +12,7 @@ def divide(a, b):
  
 def main():
   print("Welcome to the simple calculator!")
- 
+  print("Created by Akosua")
   while True:
     operation = input("What operation would you like to perform? (+, -, *, /): ")
     num1 = float(input("Enter the first number: "))
@@ -32,7 +32,8 @@ def main():
  
     print("The result is:", result)
  
-    again = input("Would you like to perform another operation? (y/n): ")
+    again = input("Would you like to perform another operation? : ")
+    again = input("yes/no: ")
     if again == "n":
       break
  
